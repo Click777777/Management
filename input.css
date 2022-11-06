@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  cursor: pointer;
+}
+
+.top,
+.mid,
+.bot {
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  border-radius: 2rem;
+  transition: all 0.5s;
+}
+
+.open .top {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+.open .mid {
+  opacity: 0;
+}
+.open .bot {
+  transform: rotate(-45deg) translate(5px, -6px);
+}
