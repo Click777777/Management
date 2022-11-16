@@ -48,7 +48,9 @@ html {
   font-feature-settings: normal;
   /* 5 */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
@@ -59,6 +61,16 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 /*
