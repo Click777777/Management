@@ -11,6 +11,8 @@
 <li>HTML</li>
 </ul><ul>
 <li>Tailwind Css</li>
+</ul><ul>
+<li>ReactJs</li>
 </ul><h2>Screenshots</h2>
 <hr><p><img src="https://github.com/Click777777/Management/blob/main/img/click777777.github.io_Management_(Nest%20Hub%20Max).png" alt=""></p><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Acknowledgement</h2>
